@@ -1,0 +1,157 @@
+body {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+div.container {
+  width: 80%;
+  margin: auto;
+}
+/* style for menu section */
+div.menu {
+  width: 100%;
+  background-color: aquamarine;
+}
+div.logo,
+div.main-menu {
+  width: 49%;
+  display: inline-block;
+}
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+}
+li a {
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+li a:hover {
+  background-color: antiquewhite;
+}
+/* end of menu section style */
+/* style for alive section */
+
+div.alive {
+  width: 100%;
+  height: 300px;
+  background-color: aqua;
+  text-align: center;
+}
+div.blue {
+  background-color: blue;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  margin-top: 120px;
+}
+/* style for team section */
+div.team {
+  width: 100%;
+  background-color: green;
+  text-align: center;
+  padding: 30px 0px;
+  color: white;
+}
+div.team p {
+  width: 300px;
+  margin: auto;
+}
+div.team h1 {
+  margin-top: 0px;
+}
+/* style for members section */
+div.members {
+  width: 100%;
+  padding: 30px 0px;
+  text-align: center;
+}
+div.members p#section-description {
+  width: 500px;
+  margin: auto;
+}
+div.members div.description {
+  width: 100%;
+  margin-top: 30px;
+}
+div.description div.info {
+  display: inline-block;
+  width: 22%;
+  background-color: antiquewhite;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 16px;
+}
+/* style for images section */
+div.images {
+  width: 100%;
+  padding: 30px 0px 0px 0px;
+}
+div.images div.profile {
+  width: 22%;
+  margin: 10px;
+  display: inline-block;
+  /* border: 1px solid #ddd; */
+}
+div.profile img {
+  width: 100%;
+  border-radius: 50%;
+}
+div.positions {
+  width: 100%;
+}
+div.positions div.rule {
+  width: 22%;
+  display: inline-block;
+  background-color: green;
+  margin: 10px;
+  padding: 10px 0px;
+  color: white;
+  text-transform: uppercase;
+}
+/* style for pricing section */
+div.pricing {
+  width: 100%;
+  padding: 30px 0px;
+}
+div.pricing div.plan {
+  width: 22%;
+  margin: 10px;
+  display: inline-block;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 20px 0px;
+}
+div.plan span{
+  display: block;
+  padding: 10px 0px;
+}
+div.plan span.plan-name{
+  border-bottom: 1px solid black;
+}
+div.plan span.users{
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 40px;
+}
+div.plan button{
+  background-color: beige;
+  border: 0px;
+  padding: 10px;
+  margin-top: 20px;
+
+}
+/* style for end section */
+div.end{
+  width: 100%;
+  text-align: center;
+  background-color: green;
+  padding: 20px 0px;
+  color: white;
+}
+
